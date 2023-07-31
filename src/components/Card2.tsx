@@ -7,35 +7,67 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  console.log("Card.tsx", frontmatter);
+  console.log("Card2.tsx", frontmatter);
   const { title, description, ogImage } = frontmatter;
 
+/*
   return (
     <li className="my-6">
-      <div data-id="card-container" className="flex flex-row gap-x-4">
-        {ogImage ? (
-          <div data-id="card-left" className="shrink-0 grow-0 basis-1/3">
-            <img className="rounded-md" src={ogImage}></img>
+      <div data-id="card-container" className="card flex flex-col lg:flex-row gap-x-4">
+
+          <div className="shrink-0 grow-0 basis-1/3">
+            <img className="" src={ogImage}></img>
           </div>
-        ) : null}
-        <div data-id="card-right" className="basis-2/3">
-          <a
-            href={href}
-            className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
-          >
-            {secHeading ? (
-              <h2 className="text-lg font-medium decoration-dashed hover:underline">
-                {title}
-              </h2>
-            ) : (
-              <h3 className="text-lg font-medium decoration-dashed hover:underline">
+
+        <div className="basis-2/3">
+          <a href={href} className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0">
+            
+              <h3 className="text-lg font-medium hover:underline">
                 {title}
               </h3>
-            )}
+ 
           </a>
           <p>{description}</p>
         </div>
       </div>
     </li>
-  );
+
+  )
+*/
+
+ return (
+    <section className="mx-auto px-0 py-4 sm:py-6">
+        <div className="flex flex-col sm:flex-row sm:space-x-4 mx-auto">
+            <img className=" border-sky-500 rounded-2xl shrink-0 grow-0 basis-1/3 sm:max-w-[420px]" src={ogImage}></img>
+            <div className="py-5 sm:py-0 sm:pl-3">
+                <div className="text-2xl">{title}</div>
+                <div className="py-5">{description}</div>
+            </div>
+        </div>
+    </section>
+ )
+
+
+/*
+  return (
+        <li>
+            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                <div className="md:flex">
+                    <div className="md:shrink-0">
+                        <img className="rounded-md" src={ogImage}></img>
+                    </div>
+                    <div className="p-8">
+                        <a href={href}>
+                        <h2>{title}</h2>
+                        </a>
+                        <p>{description}</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    )
+
+*/
+
+
 }

@@ -1,15 +1,15 @@
 ---
 author: Sat Naing
 pubDatetime: 2022-09-23T04:58:53Z
-title: How to configure AstroPaper theme
-postSlug: how-to-configure-astropaper-theme
+title: Paytm
+postSlug: paytm-project
 featured: true
 draft: false
 tags:
   - configuration
   - docs
-ogImage: "https://images.unsplash.com/photo-1488509082528-cefbba5ad692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
-description: How you can make AstroPaper theme absolutely yours.
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690838725/Frame_7204_fcl6mt.png
+description: Enabling millions of users to chat, interact and make transactions all in a single app.
 ---
 
 AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.

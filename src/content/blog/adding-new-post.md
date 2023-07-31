@@ -1,16 +1,15 @@
 ---
 author: Sat Naing
 pubDatetime: 2022-09-23T15:22:00Z
-title: Adding new posts in AstroPaper theme
-postSlug: adding-new-posts-in-astropaper-theme
+title: ReferralCandy
+postSlug: referralcandy-project
 featured: true
 draft: false
 tags:
   - docs
-ogImage: https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3074&q=80
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690837697/Frame_3_yalt3t.png
 description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+  Increasing word of mouth sales for businesses using email referral marketing
 ---
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
