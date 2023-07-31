@@ -1,13 +1,13 @@
 ---
 author: Sat Naing
-pubDatetime: 2022-09-23T15:22:00Z
+pubDatetime: 2020-09-23T15:22:00Z
 title: ReferralCandy
 postSlug: referralcandy-project
 featured: true
 draft: false
 tags:
   - docs
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690837697/Frame_3_yalt3t.png
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690839537/Frame_3_cb0xis.png
 description:
   Increasing word of mouth sales for businesses using email referral marketing
 ---
