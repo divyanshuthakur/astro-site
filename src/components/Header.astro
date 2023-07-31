@@ -6,7 +6,7 @@ import logoPNG from "/assets/logo.png";
 import logoSVG from "/assets/logo.svg";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "about" | "tags" | "posts" | "search" | "test";
 }
 
 const { activeNav } = Astro.props;
@@ -57,15 +57,16 @@ const { activeNav } = Astro.props;
           </svg>
         </button>
         <ul id="menu-items" class="display-none sm:flex">
-          <li>
-            <a href="/posts" class={activeNav === "posts" ? "active" : ""}>
-              Posts
-            </a>
-          </li>
+         
 
           <li>
             <a href="/about" class={activeNav === "about" ? "active" : ""}>
               About
+            </a>
+          </li>
+           <li>
+            <a href="/test" class={activeNav === "test" ? "active" : ""}>
+              Test
             </a>
           </li>
         
@@ -107,7 +108,7 @@ const { activeNav } = Astro.props;
     @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;
   }
   .logo {
-    @apply absolute py-1 text-xl font-semibold sm:static sm:text-2xl;
+    @apply absolute py-1 font-medium sm:static sm:text-2xl;
   }
   .hamburger-menu {
     @apply self-end p-2 sm:hidden;

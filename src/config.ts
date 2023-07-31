@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://divyanshu.io",
   author: "Divyanshu Thakur",
   desc: "Divyanshu's website for work.",
-  title: "DivyanshuThakur",
+  title: "DT",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -13,7 +13,7 @@ export const SITE: Site = {
 export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
-  enable: true,
+  enable: false,
   svg: true,
   width: 46,
   height: 46,

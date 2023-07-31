@@ -8,7 +8,7 @@ draft: false
 tags:
   - configuration
   - docs
-ogImage: ""
+ogImage: "https://images.unsplash.com/photo-1488509082528-cefbba5ad692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
 description: How you can make AstroPaper theme absolutely yours.
 ---
 
