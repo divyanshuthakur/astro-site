@@ -9,7 +9,7 @@ draft: false
 tags:
   - configuration
   - docs
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690838725/Frame_7204_fcl6mt.png
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/dpr_auto,w_480/v1690838725/Frame_7204_fcl6mt.png
 description: Enabling millions of users to chat, interact and make transactions all in a single app.
 ---
 

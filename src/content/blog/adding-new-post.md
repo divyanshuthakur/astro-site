@@ -8,7 +8,7 @@ featured: true
 draft: false
 tags:
   - docs
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690839537/Frame_3_cb0xis.png
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/dpr_auto,w_480/v1690839537/Frame_3_cb0xis.png
 description:
   Increasing word of mouth sales for businesses using email referral marketing
 ---
