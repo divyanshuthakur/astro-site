@@ -8,7 +8,25 @@ export interface Props {
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
   console.log("Card2.tsx", frontmatter);
-  const { title, description, ogImage } = frontmatter;
+  const { title, description, ogImage, duration } = frontmatter;
+
+ return (
+    <section className="mx-auto px-0 py-4 sm:py-6">
+        <div className="flex flex-col sm:flex-row sm:space-x-4 mx-auto">
+            <a href={href}>
+              <img className=" transition ease-in-out hover:translate-y-[-4px] rounded-2xl shrink-0 grow-0 basis-1/3 sm:max-w-[420px]" src={ogImage}></img>
+            </a>
+            <div className="py-5 sm:py-0 sm:pl-3">
+                <a href={href}><div className="text-2xl font-medium">{title}</div></a>
+                <p className="py-2 text-slate-400">{duration}</p>
+                <div className="text-lg py-5">{description}</div>
+            </div>
+        </div>
+    </section>
+ )
+
+
+}
 
 /*
   return (
@@ -35,20 +53,6 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   )
 */
 
- return (
-    <section className="mx-auto px-0 py-4 sm:py-6">
-        <div className="flex flex-col sm:flex-row sm:space-x-4 mx-auto">
-            <a href={href}>
-              <img className=" transition ease-in-out hover:translate-y-[-4px] rounded-2xl shrink-0 grow-0 basis-1/3 sm:max-w-[420px]" src={ogImage}></img>
-            </a>
-            <div className="py-5 sm:py-0 sm:pl-3">
-                <a href={href}><div className="text-2xl">{title}</div></a>
-                <div className="py-5">{description}</div>
-            </div>
-        </div>
-    </section>
- )
-
 
 /*
   return (
@@ -72,4 +76,3 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 */
 
 
-}

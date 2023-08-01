@@ -2,6 +2,7 @@
 author: Sat Naing
 pubDatetime: 2020-09-23T15:22:00Z
 title: ReferralCandy
+duration: November — December 2022
 postSlug: referralcandy-project
 featured: true
 draft: false

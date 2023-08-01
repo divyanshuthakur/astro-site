@@ -1,7 +1,8 @@
 ---
 author: Sat Naing
 pubDatetime: 2021-01-30T15:57:52.737Z
-title: Insider 
+title: Insider
+duration: December 2019 — February 2020
 postSlug: insider-project
 featured: true
 ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690839178/Frame_2_1_zwuaya.png
