@@ -35,7 +35,7 @@ const socialIcons: SocialIcons = {
     <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
   </svg>`,
   LinkedIn: `<svg
-    xmlns="http://www.w3.org/2000/svg"
+    xmlns="https://www.flaticon.com/free-icon/linkedin_717394?term=linkedin&page=1&position=22&origin=search&related_id=717394"
     class="icon-tabler"
     stroke-linecap="round"
     stroke-linejoin="round"
