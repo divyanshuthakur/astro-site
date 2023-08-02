@@ -5,7 +5,7 @@ title: Insider
 duration: December 2019 — February 2020
 postSlug: insider-project
 featured: true
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/dpr_auto,w_auto/v1690839178/Frame_2_1_zwuaya.png
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1690951225/insider-cover_uibmdf.webp
 description: Creating live interactive experiences for content creators and consumers
 ---
 
