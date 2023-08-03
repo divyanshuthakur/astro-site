@@ -13,13 +13,23 @@
     --color-border: 236, 233, 233;
   }
   html[data-theme="dark"] {
-    --color-fill: 33, 39, 55; /* lower contrast bgColor */
+    --color-fill: 255, 255, 255;
+    --color-text-base: 40, 39, 40;
+    --color-accent: 0, 108, 172;
+    --color-card: 230, 230, 230;
+    --color-card-muted: 205, 205, 205;
+    --color-border: 236, 233, 233;
+  }
+
+  /* html[data-theme="dark"] {
+    --color-fill: 33, 39, 55; 
     --color-text-base: 255, 255, 255;
     --color-accent: 167, 182, 222;
     --color-card: 52, 63, 96;
     --color-card-muted: 138, 51, 2;
     --color-border: 51, 55, 66;
-  }
+  } */
+  
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
     display: none;
@@ -36,6 +46,10 @@
   section,
   footer {
     @apply mx-auto max-w-3xl px-4;
+  }
+
+  p {
+    @apply text-lg
   }
   a {
     @apply outline-2 outline-offset-1 outline-skin-fill 

@@ -23,8 +23,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <section id="hero">
   
 
-      <!-- <p>
-        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Divyanshu", "I am a Product Designer.", "I Love Design.", "I Love to Develop." ]'>
+      <p>
+        <a href="" class="typewrite" data-period="2000" data-type='["I am a Product Designer.", "I Love Design.", "I Love to Develop." ]'>
           <span class="wrap"></span>
         </a>
       </p>
@@ -85,7 +85,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             css.innerHTML = ".typewrite > .wrap {border-right: 0.08em solid #fff}";
             document.body.appendChild(css);
         };
-      </script> -->
+      </script>
+
+
       <h1>Hi! I'm Divyanshu</h1>
       <p>
         I'm a product designer based in India. Previously I was at ReferralCandy, building their word of mouth SaaS marketing software. I've also worked with Insider & Paytm, where I built products for live shows and event ticketing.
@@ -108,7 +110,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Projects</h2>
+            <h2></h2>
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card2
@@ -131,11 +133,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
 <style>
   /* ===== Hero Section ===== */
+
+
+  h1 {
+  font-family: "Gambarino"
+  }
+
   #hero {
     @apply pb-6 pt-8;
   }
   #hero h1 {
-    @apply my-4 inline-block text-3xl font-medium sm:my-8 sm:text-3xl;
+    @apply my-4 inline-block text-3xl sm:my-8 sm:text-5xl;
   }
   #hero .rss-link {
     @apply mb-6;

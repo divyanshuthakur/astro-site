@@ -57,7 +57,9 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
+      sans: ['"Inter"', 'sans-serif'],
       mono: ["system-ui", "sans-serif"],
+      serif: ["Gambarino"]
     },
     },
   },
