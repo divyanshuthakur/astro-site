@@ -26,8 +26,9 @@ const socialIcons: SocialIcons = {
   Instagram: `<svg
     xmlns="http://www.w3.org/2000/svg"
     class="icon-tabler"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    stroke-linecap="butt"
+    stroke-linejoin="square"
+    stroke-width="1"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <rect x="4" y="4" width="16" height="16" rx="4"></rect>
@@ -38,7 +39,7 @@ const socialIcons: SocialIcons = {
     xmlns="https://www.flaticon.com/free-icon/linkedin_717394?term=linkedin&page=1&position=22&origin=search&related_id=717394"
     class="icon-tabler"
     stroke-linecap="round"
-    stroke-linejoin="round"
+    stroke-linejoin="square"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <rect x="4" y="4" width="16" height="16" rx="2"></rect>
