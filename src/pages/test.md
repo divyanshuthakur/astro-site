@@ -3,8 +3,6 @@ layout: ../layouts/TestLayout.astro
 title: "Test"
 ---
 
-Page created for fun :)
-
 ### Things to fix on this website
 
 #### High priority

@@ -29,6 +29,7 @@ const socialIcons: SocialIcons = {
     stroke-linecap="butt"
     stroke-linejoin="square"
     stroke-width="1"
+    color="gray"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <rect x="4" y="4" width="16" height="16" rx="4"></rect>
@@ -40,6 +41,7 @@ const socialIcons: SocialIcons = {
     class="icon-tabler"
     stroke-linecap="round"
     stroke-linejoin="square"
+    color="gray"
   >
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
     <rect x="4" y="4" width="16" height="16" rx="2"></rect>
