@@ -2,7 +2,7 @@
 author: Divyanshu Thakur
 pubDatetime: 2023-09-23T15:22:00Z
 title: ReferralCandy
-duration: November — December 2022
+duration: Nov 2020 — Dec 2022
 postSlug: referralcandy-project
 featured: true
 draft: false

@@ -17,10 +17,10 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
               <img className=" transition ease-in-out hover:translate-y-[-4px] shrink-0 grow-0 basis-1/3 sm:max-w-[420px]" src={ogImage}></img>
             </a>
             <div className="py-5 sm:py-0 sm:pl-3">
-                <div className="text-2xl font-medium text-gray-700}">{title}</div>
+                <div className="text-2xl font-medium text-gray-700">{title}</div>
                 <p className="py-2 text-gray-500">{duration}</p>
-                <div className="text-lg py-5 text-gray-700}">{description}</div>
-                <a href={href}><button className="bg-white hover:bg-gray-100 text-gray-800 font-md py-4 px-6 border border-gray-300 rounded-lg ">Read Case Study</button></a>
+                <div className="text-lg  pt-0 py-3 sm:py-5 sm:mb-10 text-gray-700">{description}</div>
+                <a href={href}><button className="mb-0 text-indigo-600 text-lg hover:underline hover:text-indigo-800">Read Case Study</button></a>
             </div>
         </div>
     </section>
