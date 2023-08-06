@@ -1,13 +1,13 @@
 ---
 author: Divyanshu Thakur
-pubDatetime: 2020-09-23T04:58:53Z
+pubDatetime: 2019-09-23T04:58:53Z
 title: Paytm
 duration: April - September 2020
 postSlug: paytm-project
 featured: true
 draft: false
 tags: []
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1691056146/paytm-cover_fyyymg.webp
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1691313759/paytm-cover_mntjpx.webp
 description: Enabling millions of users to chat, interact and make transactions all in a single app.
 ---
 
