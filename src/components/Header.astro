@@ -5,13 +5,13 @@ import logoPNG from "/assets/logo.png";
 import logoSVG from "/assets/logo.svg";
 
 export interface Props {
-  activeNav?: "about" | "tags" | "posts" | "search" | "test" | "notes";
+  activeNav?: "about" | "tags" | "posts" | "search" | "test" | "notes"
 }
 
 const { activeNav } = Astro.props;
 ---
 
-<header>
+<header class="fixed top-0 w-screen bg-white-80 backdrop-blur-md border-b border-slate-200">
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
@@ -102,7 +102,7 @@ const { activeNav } = Astro.props;
     @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
   }
   .top-nav-wrap {
-    @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;
+    @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-2;
   }
   .logo {
     @apply absolute py-1 font-medium sm:static text-2xl;
