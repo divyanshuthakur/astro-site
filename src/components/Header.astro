@@ -5,7 +5,7 @@ import logoPNG from "/assets/logo.png";
 import logoSVG from "/assets/logo.svg";
 
 export interface Props {
-  activeNav?: "about" | "tags" | "posts" | "search" | "test";
+  activeNav?: "about" | "tags" | "posts" | "search" | "test" | "notes";
 }
 
 const { activeNav } = Astro.props;
@@ -20,7 +20,7 @@ const { activeNav } = Astro.props;
           LOGO_IMAGE.enable ? (
             <img
               src={LOGO_IMAGE.svg ? logoSVG : logoPNG}
-              alt="AstroPaper Logo"
+              alt="Divyanshu Thakur"
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
             />
@@ -59,14 +59,13 @@ const { activeNav } = Astro.props;
          
 
           <li>
-            <a href="/about" class={activeNav === "about" ? "active" : ""}>
-              About
-            </a>
+            <a href="/about" class={activeNav === "about" ? "active" : ""}>About</a>
           </li>
-           <li>
-            <a href="/test" class={activeNav === "test" ? "active" : ""}>
-              Test
-            </a>
+          <li>
+            <a href="/test" class={activeNav === "test" ? "active" : ""}>Test</a>
+          </li>
+          <li>
+            <a href="/notes" class={activeNav === "notes" ? "active" : ""}>Notes</a>
           </li>
         
           <li>
@@ -122,10 +121,10 @@ const { activeNav } = Astro.props;
     @apply mt-4 grid w-44 grid-cols-2 grid-rows-4 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:w-auto sm:gap-x-5 sm:gap-y-0;
   }
   nav ul li {
-    @apply col-span-2 flex items-center justify-center;
+    @apply col-span-2 flex text-lg items-center justify-center;
   }
   nav ul li a {
-    @apply w-full px-4 py-3 text-center font-medium hover:text-indigo-800 sm:my-0 sm:px-2 sm:py-1;
+    @apply w-full px-4 py-3 text-center font-medium text-gray-500 hover:text-indigo-700 sm:my-0 sm:px-2 sm:py-1;
   }
   nav ul li:nth-child(4) a {
     @apply w-auto;
@@ -135,7 +134,7 @@ const { activeNav } = Astro.props;
     @apply col-span-1;
   }
   nav a.active {
-    @apply underline decoration-2 underline-offset-4;
+    @apply text-gray-700 underline decoration-2 underline-offset-4;
   }
   nav a.active svg {
     @apply fill-skin-accent;

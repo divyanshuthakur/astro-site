@@ -7,7 +7,6 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  console.log("Card2.tsx", frontmatter);
   const { title, description, ogImage, duration } = frontmatter;
 
  return (
@@ -20,7 +19,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
                 <div className="text-2xl font-medium text-gray-700">{title}</div>
                 <p className="py-2 text-gray-500">{duration}</p>
                 <div className="text-lg  pt-0 py-3 sm:py-5 sm:mb-10 text-gray-700">{description}</div>
-                <a href={href}><button className="mb-0 text-indigo-600 text-lg hover:underline hover:text-indigo-800">Read Case Study</button></a>
+                <a href={href}><button className="mb-0 text-indigo-600 text-lg hover:underline hover:text-indigo-800 decoration-2 underline-offset-4">Read Case Study</button></a>
             </div>
         </div>
     </section>

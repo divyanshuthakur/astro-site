@@ -3,6 +3,10 @@ layout: ../layouts/AboutLayout.astro
 title: ""
 ---
 
+<div>
+<img src="https://res.cloudinary.com/divyanshuthakur/image/upload/v1691417022/profile_udo1jw.webp" class="rounded-lg max-h-80" alt="a profile picture of divyanshu">
+</div>
+
 
 Working on difficult and meaningful issues interest me, and I can be found stepping out of the design role into product management, research, writing, or whatever is necessary to bring clarity to a problem.
 
