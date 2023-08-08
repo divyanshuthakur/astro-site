@@ -13,7 +13,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
     <section className="mx-auto px-0 py-4 sm:py-6">
         <div className="flex flex-col sm:flex-row sm:space-x-4 mx-auto">
             <a href={href}>
-              <img className=" transition ease-in-out hover:translate-y-[-4px] shrink-0 grow-0 basis-1/3 sm:max-w-[420px]" src={ogImage}></img>
+              <img className="rounded-2xl hover:border shrink-0 grow-0 basis-1/3 sm:max-w-[420px]" src={ogImage}></img>
             </a>
             <div className="py-5 sm:py-0 sm:pl-3">
                 <div className="text-2xl font-medium text-gray-700">{title}</div>
