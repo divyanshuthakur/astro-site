@@ -18,8 +18,7 @@ As of today, I'm at ReferralCandy designing their Saas product that helps e-comm
   <img src="https://res.cloudinary.com/divyanshuthakur/image/upload/v1645718840/igatpuri-bike-ride_k6rtb9.webp" class="rounded-lg" alt="riding a bike on the highway">
 </div>
 
-In my spare time I make comics, tinker around with code, read and ride bikes. I am constantly learning something new, it's what keeps me mentally active. Right now I've started learning the piano along with some music theory.
-
+In my spare time I make comics, tinker around with code, read and ride bikes. I am constantly learning something new, it's what keeps me mentally active. Right now I'm coding this site on my own while also making youtube videos <div><a href="https://youtu.be/v6dR8SR48Lg">youtube channel</a></div>
 <div>
   <img src="https://res.cloudinary.com/divyanshuthakur/image/upload/v1645718841/formula-sae-racecar_rzmg1z.webp" class="rounded-lg" alt="riding a bike on the highway">
 </div>
