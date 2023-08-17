@@ -7,7 +7,7 @@ export interface Props {
 const { href, title } = Astro.props;
 ---
 
-<a href={href} class="border border-gray-300 rounded-xl text-lg py-3 px-5 w-max flex items-center group hover:opacity-80 transition">
+<a href={href} class="border border-gray-200 rounded-xl text-lg py-2 px-5 w-max flex items-center group hover:opacity-80 transition">
     <span class="pr-2">{title}</span>
     <svg class="group-hover:translate-x-1.5 transition" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="var(--token-cdc990fc-1a39-492b-80a6-e13af03045cf, rgb(25, 25, 26)) /* {&quot;name&quot;:&quot;Black&quot;} */">
         <path d="M6 12h12.5m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
