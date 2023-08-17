@@ -1,9 +1,9 @@
 ---
 author: Divyanshu Thakur
-pubDatetime: 2023-09-23T15:22:00Z
-title: ReferralCandy
-duration: Web
-postSlug: referralcandy-project
+pubDatetime: 2017-09-23T15:22:00Z
+title: Sprintbeans
+duration: Web, iOS
+postSlug: sprintbeans-project
 featured: true
 draft: false
 tags: []

@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://divyanshu.io",
   author: "Divyanshu Thakur",
   desc: "Divyanshu's website for work.",
-  title: "DT",
+  title: "Divyanshu Thakur",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
   postPerPage: 3,

@@ -2,7 +2,7 @@
 author: Divyanshu Thakur
 pubDatetime: 2019-09-23T04:58:53Z
 title: Paytm
-duration: Apr 2020 — Sep 2020
+duration: iOS, Android
 postSlug: paytm-project
 featured: true
 draft: false

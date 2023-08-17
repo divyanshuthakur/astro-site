@@ -2,7 +2,7 @@
 author: Divyanshu Thakur
 pubDatetime: 2018-01-30T15:57:52.737Z
 title: Insider
-duration: Dec 2019 — Feb 2020
+duration: Web, iOS, Android
 postSlug: insider-project
 featured: true
 tags: []

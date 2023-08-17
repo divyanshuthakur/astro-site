@@ -14,9 +14,13 @@ const { noMarginTop = false } = Astro.props;
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
   <Hr/>
   <div class="footer-wrapper">
-    <Socials centered />
+    <div class="socials">
+      <a href="https://instagram.com/couchbatata">Instagram</a>
+      <a href="https://linkedin.com/in/divyanshuthakur">Linkedin</a>
+    </div>
+    <!-- <Socials centered /> -->
     <div class="copyright-wrapper">
-      <span>&#169; Divyanshu Thakur, {currentYear}</span>
+      <span>Divyanshu Thakur, {currentYear}</span>
     </div>
   </div>
 </footer>
@@ -39,5 +43,9 @@ const { noMarginTop = false } = Astro.props;
   }
   .separator {
     @apply hidden sm:inline;
+  }
+
+  .socials a {
+    @apply pl-4 text-gray-500
   }
 </style>

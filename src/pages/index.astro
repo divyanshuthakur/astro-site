@@ -4,48 +4,39 @@ import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Card2 from "@components/Card2";
-import Socials from "@components/Socials.astro";
+import Button from "@components/Button.astro"
 import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
-import { SOCIALS } from "@config";
+
 
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
-const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
 <Layout>
   <Header />
   <main id="main-content">
     <section id="hero">
-  
-      <h1>Hello I'm Divyanshu, a product designer from India.</h1>
       <p>
-        Designing remarkable experiences is at the core of what I do. I blend creativity and precision to create user-centric products. Have a look at some of my work below.
+        Divyanshu is a product designer focused on designing remarkable experiences and user centric products.
       </p>
- 
-      <!-- {
-        // only display if at least one social link is enabled
-        // socialCount > 0 && (
-        //   <div class="social-wrapper">
-        //     <div class="social-links">Social Links:</div>
-        //     <Socials />
-        //   </div>
-        // )
-      } -->
+      <Button
+      href="mailto:thakurdivyanshu@gmail.com"
+      title="Available for new roles"
+      />
     </section>
 
 
 
     {
+
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2></h2>
-            <ul>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {featuredPosts.map(({ data }) => (
                 <Card2
                   href={`/posts/${slugify(data)}`}
@@ -70,9 +61,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   /* ===== Hero Section ===== */
 
 
-  h1 {
-  font-family: "Clash Grotesk";
-  }
 
   #hero {
     @apply pb-6 pt-8;
@@ -87,7 +75,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
   }
   #hero p {
-    @apply my-2 text-gray-700;
+    @apply pb-6 my-2 text-3xl text-gray-900 leading-relaxed;
   }
   .social-wrapper {
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
@@ -97,13 +85,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
-  #featured,
-  #recent-posts {
+  #featured {
     @apply pb-6 pt-12;
-  }
-  #featured h2,
-  #recent-posts h2 {
-    @apply text-2xl font-semibold tracking-wide;
   }
 
 
