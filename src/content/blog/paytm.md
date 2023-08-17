@@ -7,7 +7,7 @@ postSlug: paytm-project
 featured: true
 draft: false
 tags: []
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1691313759/paytm-cover_mntjpx.webp
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1692309082/paytm-cover_1_wlh441.webp
 description: Enabling millions of users to chat, interact and make transactions all in a single app.
 ---
 

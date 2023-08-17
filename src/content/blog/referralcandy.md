@@ -7,7 +7,7 @@ postSlug: referralcandy-project
 featured: true
 draft: false
 tags: []
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1691313764/referralcandy-cover_zb7qhi.webp
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1692309084/referralcandy-cover_bizi3a.webp
 description:
   Increasing word of mouth sales for businesses using email referral marketing
 ---

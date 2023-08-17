@@ -12,7 +12,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
  return (
     <div className="flex flex-col sm:flex-row sm:space-x-4 mx-auto">
             <a href={href} className="block w-full  hover:opacity-70 transition duration-200">
-              <img className="w-full max-w-[100%] h-auto" src={ogImage}></img>
+              <img className="rounded-xl border w-full max-w-[100%] h-auto" src={ogImage}></img>
               <div className="py-4 px-2 flex-col justify-between">
                 <div className="text-2xl text-gray-700">{title}</div>
                 <div className="text-lg py-2 text-gray-500">{duration}</div>
