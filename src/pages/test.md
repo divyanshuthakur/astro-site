@@ -3,7 +3,7 @@ layout: ../layouts/TestLayout.astro
 title: "Test"
 ---
 
-### Things to fix on this website
+## Things to fix on this website
 
 #### High priority
 - Update hero section to look visually interesting

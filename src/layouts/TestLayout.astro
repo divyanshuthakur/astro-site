@@ -3,6 +3,7 @@ import { SITE } from "@config";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import Layout from "./Layout.astro";
+import Hr from "@components/Hr.astro";
 
 export interface Props {
   frontmatter: {
@@ -14,20 +15,55 @@ export interface Props {
 const { frontmatter } = Astro.props;
 ---
 
-<!-- <Layout title={`${frontmatter.title} | ${SITE.title}`}> -->
-<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+<Layout title={`Changelog | ${SITE.title}`}>
   <Header activeNav="test" />
-  <main id="main-content">
-    <section id="about" class="prose mb-28 max-w-5xl prose-img:border-0">
-      <!-- <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1> -->
-      <slot />
+  <main>
+    <section id="hero">
+      <h1>
+        I'm learning how to code and building this site on my own, here's a changelog of my progress so far
+      </h1>
+      <p>
+        High priority </br>
+- Update hero section to look visually interesting</br>
+- Update site logo to replace 'DT'</br>
+- Rewrite 'About' page</br>
+- Create visually rich banners for projects</br>
+- ~Set baseline font size for body copy to 18px~ ✅</br>
+- ~Find a better serif font for headers~ ✅</br>
+- ~Fix font colours to pass AA on WCAG~ ✅</br>
+</br>
+
+Low priority</br>
+- Remove hamburger menu on mobile, not needed</br>
+- Change social icons stroke to match overall style</br>
+- ~Transition of nav links is slow on light-dark mode~ disabled dark mode</br>
+- ~Footer text: lesser contrast~ ✅</br>
+- Create a 'changelog' section, import from old gatsby site</br>
+</br>
+Future upgrades</br>
+- Include separate tab for blog posts (implemented via cms)
+      </p>
+
     </section>
   </main>
   <Footer />
 </Layout>
 
+
+
 <style>
-  li {
-    list-style: none;
+  /* ===== Hero Section ===== */
+  #hero {
+    @apply pb-6 pt-8;
   }
+  #hero h1 {
+    @apply pb-6 my-2 text-2xl font-light leading-relaxed text-gray-900 sm:leading-relaxed sm:w-[80%];
+  }
+  #content {
+    @apply pb-6 my-2 font-light leading-relaxed text-gray-800 sm:w-[80%];
+  }
+  #hero p {
+    @apply pb-6 my-2 font-light leading-relaxed text-gray-800 sm:w-[80%];
+  }
+ 
 </style>

@@ -21,7 +21,7 @@ const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
   <main id="main-content">
     <section id="hero">
       <p>
-        Divyanshu is a product designer focused on designing remarkable experiences and user centric products.
+        Divyanshu is a product designer focused on designing remarkable experiences and user centric products
       </p>
       <Button
       href="mailto:thakurdivyanshu@gmail.com"
@@ -68,20 +68,8 @@ const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
   #hero h1 {
     @apply my-4 inline-block text-gray-800 text-3xl sm:text-3xl;
   }
-  #hero .rss-link {
-    @apply mb-6;
-  }
-  #hero .rss-icon {
-    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
-  }
   #hero p {
     @apply pb-6 my-2 text-2xl font-light leading-relaxed sm:text-4xl text-gray-900 sm:leading-relaxed sm:w-[80%];
-  }
-  .social-wrapper {
-    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
-  }
-  .social-links {
-    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
   }
 
   /* ===== Featured & Recent Posts Sections ===== */

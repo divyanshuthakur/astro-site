@@ -3,6 +3,7 @@ import { SITE } from "@config";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import Layout from "./Layout.astro";
+import Button from "@components/Button.astro"
 
 export interface Props {
   frontmatter: {
@@ -14,7 +15,27 @@ export interface Props {
 const { frontmatter } = Astro.props;
 ---
 
-<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+<Layout title={`About | ${SITE.title}`}>
+  <Header activeNav="about" />
+  <main>
+    <section id="hero">
+      <h1>
+        For more than 5 years, I've helped startups and agencies of all sizes build and launch digital products
+      </h1>
+      <p>
+        Throughout my career, I have had the pleasure of working with teams that were devoted to creating experiences that leave a positive impact on anyone who encounters them. I am currently available for new roles as a Senior Product Designer. If you think we can be a good fit, feel free to reach out at any time to chat.
+      </p>
+
+      <Button
+      href="mailto:thakurdivyanshu@gmail.com"
+      title="Let's Talk"
+      />
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<!-- <Layout title={`${frontmatter.title} | ${SITE.title}`}>
   <Header activeNav="about" />
   <main id="main-content">
     <section id="about" class="prose mb-28 max-w-5xl prose-img:border-0">
@@ -23,4 +44,20 @@ const { frontmatter } = Astro.props;
     </section>
   </main>
   <Footer />
-</Layout>
+</Layout> -->
+
+
+<style>
+  /* ===== Hero Section ===== */
+  #hero {
+    @apply pb-6 pt-8;
+  }
+  #hero h1 {
+    @apply pb-6 my-2 text-2xl font-light leading-relaxed text-gray-900 sm:leading-relaxed sm:w-[80%];
+  }
+  #hero p {
+    @apply pb-6 my-2 font-light leading-relaxed text-gray-800 sm:w-[80%];
+  }
+
+ 
+</style>
