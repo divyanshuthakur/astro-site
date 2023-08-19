@@ -21,6 +21,26 @@ module.exports = {
     // if existing Tailwind color palette will be used
 
     extend: {
+
+    // typography: {
+    //   DEFAULT: {
+    //     css: {
+    //       color:'#1f2937',
+    //       p: {
+    //         color:'#1f2937',
+    //       },
+    //     },
+    //   },
+    // },
+
+    typography: (theme) => ({
+      DEFAULT: {
+        css: {
+          color:theme('colors.gray.900'),
+        },
+      },
+    }),
+
     textColor: {
       skin: {
         base: withOpacity("--color-text-base"),

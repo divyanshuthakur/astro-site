@@ -6,7 +6,7 @@ duration: Web, iOS, Android
 postSlug: insider-project
 featured: true
 tags: []
-ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1692310854/insider-cover_1_kdemva.webp
+ogImage: https://res.cloudinary.com/divyanshuthakur/image/upload/v1692441072/insider-cover_1_uksuiz.webp
 description: Creating live interactive experiences for content creators and consumers
 ---
 

@@ -3,6 +3,10 @@ layout: ../layouts/TestLayout.astro
 title: "Test"
 ---
 
+# I'm learning how to code and building this site on my own, here's a changelog of my progress so far
+
+This is a normal paragraph in the md file
+
 ## Things to fix on this website
 
 #### High priority
